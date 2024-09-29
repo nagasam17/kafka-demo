@@ -1,0 +1,10 @@
+{
+  "namespace": "com.example",
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {"name": "firstname", "type": "string"},
+    {"name": "lname", "type": "string"},
+    {"name": "dateOfBirth", "type":  { "type" : "int", "logicalType" : "date" },
+  ]
+}
